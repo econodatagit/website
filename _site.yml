@@ -1,0 +1,26 @@
+name: "HUBLADY"                                # CHANGE HERE 
+output_dir: "."
+navbar:
+  title: "HUBLADY"                             # CHANGE HERE 
+  type: inverse
+  left:
+    - text: "Home"
+      icon: fa-home
+      href: index.html
+    - text: "About"
+      icon: fa-user 
+      href: about.html
+    - text: "Blog"
+      icon: fa-rss
+      href: https://hublady.github.io/blog/  # CHANGE HERE OR DELETE ALL 3 LINES 
+  right:
+    - text: "Contact us"
+      icon: fa-envelope-o
+      href: mailto:spbou4@icloud.com                    # CHANGE HERE 
+    - text: "GitHub"
+      icon: fa-github
+      href: https://github.com/hublady     # CHANGE HERE 
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
